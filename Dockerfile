@@ -3,6 +3,7 @@ MAINTAINER Jim Leirvik <jim@jimleirvik.no>
 
 RUN apk --update add \
 	curl \
+	php-json \
 	php-phar \
 	php-zlib && \
 	rm /var/cache/apk/*
