@@ -3,11 +3,11 @@ MAINTAINER Jim Leirvik <jim@jimleirvik.no>
 
 RUN apk --update add \
 	curl \
-	php-ctype \
-	php-json \
-	php-phar \
+	php5-ctype \
+	php5-json \
+	php5-phar \
 	php5-iconv \
-	php-zlib && \
+	php5-zlib && \
 	rm /var/cache/apk/*
 
 RUN curl -LsS https://symfony.com/installer -o /usr/local/bin/symfony && \
