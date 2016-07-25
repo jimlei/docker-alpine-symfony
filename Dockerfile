@@ -6,6 +6,7 @@ RUN apk --update add \
 	php-ctype \
 	php-json \
 	php-phar \
+	php5-iconv \
 	php-zlib && \
 	rm /var/cache/apk/*
 
